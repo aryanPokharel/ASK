@@ -34,6 +34,30 @@ with sr.Microphone() as source1:
             elif said.lower() == "timro naam k ho":
                 print("English : What is your name?")
                 playsound('sounds/english/whatIsYourName.mp3')
+
+
+            elif said.lower() == "what is your age?":
+                print("Nepali : Timro Umer/age kati ho?")
+            elif said.lower() == "timro umer kati ho?" or said.lower() == "timro age kati ho":
+                print("English : What is your age?")
+            elif said.lower == "where are you from" or said.lower() == "where is your home":
+                print("Nepali : Timro ghar kata ho?")
+            elif said.lower() == "timro ghar kata ho" or said.lower() == "timi kata bata ho" or said.lower() == "timi kaha ko ho":
+                print("English : Where are you from?")
+            elif said.lower() == "what do you do":
+                print("Nepali : Timi k garchau?")
+            elif said.lower() == "timi k garchau":
+                print("English : What do you do?")
+            elif said.lower() == "where do you study":
+                print("Nepali : Timi k padchau?")
+            elif said.lower() == "timi k padchau":
+                print("English : What do you study?")
+            elif said.lower() == "where is the taxi stand" or said.lower() == "where can i find taxis" or said.lower() == "where can i find a taxi":
+                print("Nepali : Taxi kata paincha?")
+            elif said.lower() == "taxi kaha paincha" or said.lower() == "taxi kata paincha" or said.lower() == "yaha taxi kaha paincha" or \
+                    said.lower() == "yaha taxi kata paincha":
+                print("English : Where can i find a taxi?")
+
             else:
                 print("That phrase is not recorded!")
 
